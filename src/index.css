@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+body {
+  background: linear-gradient(132deg, #ff7eb3, #ef9ad4, #ff6a88);
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+body.dark {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #e2e8f0;
+  font-family: 'Montserrat', sans-serif;
+}
+
