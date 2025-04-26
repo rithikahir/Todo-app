@@ -3,7 +3,7 @@ import { TodoItemsContext } from "../store/store";
 import PopUpPage from "./PopUpPage";
 import Timer from "./Timer";
 import { FaCheckCircle, FaRegCircle, FaSun, FaMoon } from "react-icons/fa";
-import CompletedPopup from "./CompletedPopUp";
+import CompletedPopup from "./CompletedPopup";
 
 const Items = ({ todoTitle, todoDescription, todoDeadline, todoElement }) => {
   const { setSelectedTodo, selectedTodo, dispatchTodoItems, isDarkMode } =
