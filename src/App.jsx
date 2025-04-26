@@ -116,7 +116,7 @@ function App() {
           transition={{ duration: 0.3 }}
           className={`${
             message === "ADD_UPDATE" ? "bg-purple-900" : "bg-red-700"
-          } " text-white px-6 py-4 rounded-xl shadow-lg max-w-sm w-full mx-auto flex items-center justify-between gap-4"`}
+          }  text-white px-6 py-4 rounded-xl shadow-lg max-w-sm w-full mx-auto flex items-center justify-between gap-4`}
         >
           <div>
             <p className="text-lg font-semibold">
@@ -127,7 +127,7 @@ function App() {
                 : "Task Deleted!"}
             </p>
             <p
-              className={`"text-sm" ${
+              className={`text-sm whitespace-nowrap ${
                 message === "ADD_UPDATE" ? "text-purple-300" : "text-red-200"
               }`}
             >
